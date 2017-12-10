@@ -1,4 +1,4 @@
-WSDL_URL = "https://secure-wms.com/webserviceexternal/contracts.asmx?wsdl'"
+WSDL_URL = "https://secure-wms.com/webserviceexternal/contracts.asmx?wsdl"
 SOAP_ACTION_BASE_URL = 'http://www.JOI.com/schemas/ViaSub.WMS/'
 
 require 'savon'
