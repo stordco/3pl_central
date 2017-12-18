@@ -1,6 +1,7 @@
 module ThreePLCentral
   class Services
     class << self
+
       def create_orders(data)
         ThreePLCentral.client.call(:create_orders, message:data)
       end
@@ -16,6 +17,11 @@ module ThreePLCentral
       def small_parcel_orders(data)
         ThreePLCentral.client.call(:small_parcel_orders, message:data)
       end
+
+      def create_item(data)
+        ThreePLCentral.client.call(:create_item, message:data)
+      end
+
     end
   end
 end
